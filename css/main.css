@@ -1,0 +1,107 @@
+* {
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  color: #fff;
+  font-size: 18px;
+  height: 56px;
+  line-height: 56px;
+  padding-left: 16px;
+  background-color: #F44336;
+}
+
+header .fa-chevron-left {
+  margin-right: 16px;
+}
+
+.search {
+  background-color: #F44336;
+  position: relative;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.search .fa-search {
+  position: absolute;
+  top: 17px;
+  left: 19px;
+  font-size: 21px;
+  color: #737373;
+}
+
+.search input {
+  width: 100%;
+  padding-left: 40px;
+  height: 56px;
+  line-height: 56px;
+  font-size: 16px;
+  margin-bottom: 16px;
+  border-radius: 2px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.stations {
+  margin: 8px 0px;
+}
+
+.stations .station:nth-child(even) {
+  background: #FAFAFA;
+}
+
+.stations .station {
+  position: relative;
+  padding: 16px 16px 20px 16px;
+  font-weight: 100;
+  border-bottom: 1px solid #eee;
+}
+
+.stations .station h3 {
+  font-size: 18px;
+  color: #212121;
+}
+
+.stations .station p {
+  font-size: 16px;
+  color: #757575;
+}
+
+.stations .station .maplink {
+  position: absolute;
+  right: 20px;
+  top:20px;
+  color: #B9B9B9;
+}
+
+#map {
+  width: 99.99%;
+  height: 200px;
+}
+
+.station-details {
+  padding-left: 50px;
+  padding-top: 40px;
+}
+
+.station-details h1 {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.station-details p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.station-details .product {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
